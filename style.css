@@ -11,33 +11,37 @@ margin-right: 10em;
 
 float: left;
 font-family: Veranda;
+margin-left: 0px;
 margin: 2%;
 padding-bottom: 2%;
 
 }
-
+/*delicious*/
 h1 {
 
 font-family: 'Lobster', cursive;
 font-size: 30px;
 margin-top: 20px;
 margin-bottom: 0px;
+margin-left: 1px;
 padding-top:1.8%;
 
 }
 
 h2 {
 
+font-family: 'Source Sans Pro', sans-serif;
 font-size: 10px;
 margin-top: 0px;
 }
 
 /*chocolate pizza*/
 h3 {
-
+font-family: 'Yanone Kaffeesatz', sans-serif;
 font-size: 40px;
 font-style: bold;
 text-align: justify;
+margin-bottom: 1px;
 
 }
 
@@ -45,6 +49,7 @@ text-align: justify;
 
 font-family: 'Source Sans Pro', sans-serif;
 font-size: 10px;
+margin-top: 1px;
 
 }
 .social-media-logos {
@@ -52,7 +57,7 @@ font-size: 10px;
 float:right;
 display: inline-block;
 margin-top: -40px;
-margin-right: 50px;
+margin-right: 60px;
 
 }
 
@@ -77,6 +82,17 @@ margin-left: 4px;
 
 }
 
+#topline {
+ background: repeating-linear-gradient(45deg,
+ grey, grey 2px, white 2px, white 4px)
+ background: repeating-linear-gradient(45deg,
+ grey, grey 2px, white 2px, white 4px);
+ width: 100%;
+ height: 16px;
+ border: 2px;
+
+ }
+
 #list-l {
 
   display: inline-block;
@@ -88,15 +104,34 @@ margin-left: 4px;
 
 #list-r {
 
-  display: inline-block;
+  display: inline;
   width: 31.3%;
   float: left;
   margin: 1%;
 
 }
 
+#bottom-line {
+
+clear: both;
+
+}
+
+#vanessa-pic {
+
+float: left; 
+
+}
+
+
 #bottom-paragraph {
 
-display: block;
+clear: both;
+
+}
+
+#footer {
+
+text-align: center;
 
 }
